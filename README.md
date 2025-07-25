@@ -16,9 +16,15 @@
 ## 📖 项目简介
 
 **JeffernTV** 是一款专为 Android TV 平台开发的影视播放应用，基于原生 Android 技术栈（Java + Android SDK）构建。应用主要用于连接和观看 Emby 媒体服务器内容，为用户提供便捷的大屏观影体验。
+<p align="center">
 <img width="674" height="410" alt="image" src="https://github.com/user-attachments/assets/13869470-aaab-4e62-8b6c-7d797762bcc7" />
+</p>
+<p align="center">
 <img width="677" height="411" alt="image" src="https://github.com/user-attachments/assets/0fbe8edf-d962-4d28-9b72-d81dfb090b15" />
+</p>
+<p align="center">
 <img width="665" height="399" alt="image" src="https://github.com/user-attachments/assets/237eb97f-2431-43b1-97f8-ad1a5c6c8786" />
+</p>
 
 ### ✨ 核心特性
 
