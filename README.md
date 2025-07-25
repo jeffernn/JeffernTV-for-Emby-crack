@@ -15,7 +15,7 @@
 
 ## 📖 项目简介
 
-**JeffernTV** 是一款专为 Android TV 平台(Android手机也可以用)开发的突破Emby premium限制（不是高级版只能播放一分钟）即可正常播放使用的影视播放应用，基于原生 Android 技术栈（Java + Android SDK）构建。应用主要用于连接和观看 Emby 媒体服务器内容，为用户提供便捷的大屏观影体验。
+**JeffernTV** 是一款专为 Android TV 平台(Android手机也可以用，适配度较差)开发的突破Emby premium限制（不是高级版只能播放一分钟）可免费在Android TV在享受premium版的影视播放应用，基于原生 Android 技术栈（Java + Android SDK）构建。应用主要用于连接和观看 Emby 媒体服务器内容，为用户提供便捷的大屏观影体验。
 <p align="center">
 <img width="674" height="410" alt="image" src="https://github.com/user-attachments/assets/13869470-aaab-4e62-8b6c-7d797762bcc7" />
 </p>
@@ -50,10 +50,10 @@
 
 1. **启动应用** - 首次运行会显示配置界面
 2. **配置 Emby 服务器**：
-   - 输入 Emby 服务器地址（支持 HTTP/HTTPS）
+   - 输入 Emby 服务器地址（支持 HTTP/HTTPS，TLS默认端口号为443，自建需手动加上）
    - 填写用户名和密码
    - 点击"确认"保存配置
-3. **开始观影** - 配置完成后自动跳转到 Emby 界面
+3. **开始观影** - 配置完成后自动跳转到 Emby 界面，自动注入聚焦框，自动优化TV不友好组件
 4. **重置影视** - 配置完成后在设置中清除缓存或者重新安装应用
 
 ### 功能操作
@@ -66,7 +66,7 @@
 
 #### ⚙️ 设置选项（按菜单键）
 - **更换 User-Agent** - 切换设备标识
-  - Android TV（推荐）
+  - Android TV（推荐，默认）
   - Android 手机
   - Android 平板
   - 自动检测
@@ -160,6 +160,13 @@ app/
 ### 从源码构建
 
 1. 按照上述开发指南构建 APK
+2. 将 APK 传输到 Android TV 设备
+3. 在设备上启用"未知来源"安装
+4. 安装 APK 文件
+
+### 从release中直接下载
+
+1. 在release中直接下载.apk安装包
 2. 将 APK 传输到 Android TV 设备
 3. 在设备上启用"未知来源"安装
 4. 安装 APK 文件
