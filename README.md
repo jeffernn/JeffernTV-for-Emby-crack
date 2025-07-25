@@ -26,6 +26,8 @@
 <img width="665" height="399" alt="image" src="https://github.com/user-attachments/assets/237eb97f-2431-43b1-97f8-ad1a5c6c8786" />
 </p>
 
+- 如需macos端，请点击[LibreTV-MoonTV-Mac-Objective-C](https://github.com/jeffernn/LibreTV-MoonTV-Mac-Objective-C)
+  
 ### ✨ 核心特性
 
 - 🎯 **专为 Android TV 优化** - 完美适配电视遥控器操作
