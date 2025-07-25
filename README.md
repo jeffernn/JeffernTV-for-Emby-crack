@@ -188,9 +188,8 @@ app/
 
 ## 🚀 相关项目
 
-- [LibreTV](https://github.com/jeffernn/LibreTV) - Web 端影视平台
-- [MoonTV](https://github.com/jeffernn/MoonTV) - 另一个影视平台
-- [LibreTV-Mac-Python](https://github.com/jeffernn/LibreTV-Mac-Python) - macOS 版本
+- [macos版]([https://github.com/jeffernn/MoonTV](https://github.com/jeffernn/LibreTV-MoonTV-Mac-Objective-C)) - macos版的封装影视平台
+- [LibreTV-Mac-Python]([https://github.com/jeffernn/LibreTV-Mac-Python](https://github.com/jeffernn/LibreTV-Mac-Python)) - 可以自行打包为windows版本
 
 ---
 
