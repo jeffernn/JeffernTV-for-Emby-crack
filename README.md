@@ -26,15 +26,9 @@
 <img width="662" height="395" alt="image" src="https://github.com/user-attachments/assets/bb7acf51-054f-4308-8d96-7087d947dd94" />
 </p>
 
-![201753454111_ pic tump](https://github.com/user-attachments/assets/00cf9721-6653-480a-92ea-df871c670dad)
-
-
-![211753454112_ pic_thumb](https://github.com/user-attachments/assets/c0107179-c8de-4d76-bf3f-bb3fe2a85a0b)
-
-
-![221753454113_ pic_thumb](https://github.com/user-attachments/assets/5a32c269-2699-4164-a726-68d24ea8ed7e)
-
-
+![201753454111_ pic](https://github.com/user-attachments/assets/5a31fb04-e663-4742-ab99-28aab2556b05)
+![211753454112_ pic](https://github.com/user-attachments/assets/209d5e1c-2c47-43b5-8d89-ae132f8ee9bc)
+![221753454113_ pic](https://github.com/user-attachments/assets/c9c751c1-497c-4f89-83ab-7e4f5fa02ebd)
 - 安卓手机打开可能会因为网络问题重复弹输入框，请放置几秒后，退出软件，息屏后重新打开软件即可
 - 如需macos端，请点击[LibreTV-MoonTV-Mac-Objective-C](https://github.com/jeffernn/LibreTV-MoonTV-Mac-Objective-C)
   
