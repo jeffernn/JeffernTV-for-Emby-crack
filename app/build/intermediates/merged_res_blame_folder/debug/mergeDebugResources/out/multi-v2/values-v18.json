@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.jeffern.movie.app-mergeDebugResources-40:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/jeffern/.gradle/caches/transforms-4/59f40d4cb3a5f4a586fe99f4b0afd247/transformed/appcompat-1.6.1/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                },
+                {
+                    "source": "/Users/jeffern/.gradle/caches/transforms-4/d8d6331c0146512f98ef009d85f91c1c/transformed/leanback-1.0.0/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "642"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "104",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "691"
+                    }
+                }
+            ]
+        }
+    ]
+}

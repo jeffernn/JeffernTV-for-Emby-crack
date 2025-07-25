@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JeffernTV</string>
+    <string name="welcome_title">欢迎使用 JeffernTV</string>
+    <string name="welcome_message">配置您的Emby服务器</string>
+    <string name="emby_option">Emby</string>
+    <string name="url_hint">请输入网址</string>
+    <string name="username_hint">用户名</string>
+    <string name="password_hint">密码</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="loading">加载中...</string>
+    <string name="error_invalid_url">请输入有效的网址</string>
+    <string name="error_network">网络连接失败</string>
+    <string name="cache_cleared">缓存已清除</string>
+</resources>

@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/xml_backup_rules.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/drawable_app_icon.png.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/drawable/app_icon.png"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/layout_dialog_website_config.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/layout/dialog_website_config.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/layout_activity_main.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/layout_dialog_emby_config.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/layout/dialog_emby_config.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/drawable_tv_edittext_background.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/drawable/tv_edittext_background.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/drawable_tv_button_clean.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/drawable/tv_button_clean.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.jeffern.movie.app-debug-42:/layout_activity_main.xml.flat",
+        "source": "com.jeffern.movie.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/drawable_tv_edittext_selector.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/drawable/tv_edittext_selector.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/drawable_app_banner.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/drawable/app_banner.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/xml_network_security_config.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/drawable_tv_button_selector.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/drawable/tv_button_selector.xml"
+    },
+    {
+        "merged": "com.jeffern.movie.app-debug-42:/layout_dialog_emby_config.xml.flat",
+        "source": "com.jeffern.movie.app-main-44:/layout/dialog_emby_config.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/layout_activity_webview.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/layout/activity_webview.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-debug-42:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/xml/data_extraction_rules.xml"
+    }
+]

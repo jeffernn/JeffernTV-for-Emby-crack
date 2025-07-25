@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/tv_button_selector"
+    android:padding="32dp"
+    android:minWidth="500dp"
+    android:maxWidth="800dp">
+
+    <!-- 标题区域 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/app_icon"
+            android:layout_marginEnd="12dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Emby服务器配置"
+            android:textSize="24sp"
+            android:textColor="@color/tv_text_primary"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- 服务器地址 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="服务器地址 *"
+        android:textSize="16sp"
+        android:textColor="@color/tv_text_primary"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/url_hint"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey_500"
+        android:background="@drawable/tv_edittext_background"
+        android:padding="12dp"
+        android:inputType="textUri"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="6dp"
+        android:nextFocusDown="@+id/et_username" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="例如: http://192.168.1.100:8096"
+        android:textSize="12sp"
+        android:textColor="@color/tv_text_secondary"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.8" />
+
+    <!-- 用户名 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户名 *"
+        android:textSize="16sp"
+        android:textColor="@color/tv_text_primary"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/username_hint"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey_500"
+        android:background="@drawable/tv_edittext_background"
+        android:padding="12dp"
+        android:inputType="text"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="20dp"
+        android:nextFocusUp="@+id/et_url"
+        android:nextFocusDown="@+id/et_password" />
+
+    <!-- 密码 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="密码 *"
+        android:textSize="16sp"
+        android:textColor="@color/tv_text_primary"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/password_hint"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey_500"
+        android:background="@drawable/tv_edittext_background"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="6dp"
+        android:nextFocusUp="@+id/et_username"
+        android:nextFocusDown="@+id/btn_confirm" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户名和密码用于自动登录"
+        android:textSize="12sp"
+        android:textColor="@color/tv_text_secondary"
+        android:layout_marginBottom="24dp"
+        android:alpha="0.8" />
+
+    <!-- 按钮区域 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="@string/cancel"
+            android:textSize="16sp"
+            android:textColor="@color/tv_text_secondary"
+            android:background="@drawable/tv_button_clean"
+            android:layout_marginEnd="12dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:nextFocusUp="@+id/et_password"
+            android:nextFocusRight="@+id/btn_confirm" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="@string/confirm"
+            android:textSize="16sp"
+            android:textColor="@color/tv_text_primary"
+            android:textStyle="bold"
+            android:background="@drawable/tv_button_clean"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:nextFocusUp="@+id/et_password"
+            android:nextFocusLeft="@+id/btn_cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

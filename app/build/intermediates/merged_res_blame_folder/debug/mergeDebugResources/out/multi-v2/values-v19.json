@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.jeffern.movie.app-mergeDebugResources-40:/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/Users/jeffern/.gradle/caches/transforms-4/d8d6331c0146512f98ef009d85f91c1c/transformed/leanback-1.0.0/res/values-v19/values-v19.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "659"
+                    }
+                }
+            ]
+        }
+    ]
+}

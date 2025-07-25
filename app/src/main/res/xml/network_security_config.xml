@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 允许所有域名的HTTP和HTTPS流量 -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="user"/>
+        </trust-anchors>
+    </base-config>
+
+    <!-- 特定域名配置 -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">zeroo.dpdns.org</domain>
+        <domain includeSubdomains="true">watch.zeroo.dpdns.org</domain>
+        <domain includeSubdomains="true">dpdns.org</domain>
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">10.0.0.0</domain>
+        <domain includeSubdomains="true">192.168.0.0</domain>
+        <domain includeSubdomains="true">172.16.0.0</domain>
+    </domain-config>
+
+    <!-- 调试配置 - 允许所有证书 -->
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="user"/>
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

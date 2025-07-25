@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- 排除敏感数据 -->
+    <exclude domain="sharedpref" path="JeffernMoviePrefs.xml"/>
+</full-backup-content>

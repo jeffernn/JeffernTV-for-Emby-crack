@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.jeffern.movie.app-mergeDebugResources-41:/layout/dialog_emby_config.xml",
+        "source": "com.jeffern.movie.app-main-44:/layout/dialog_emby_config.xml"
+    },
+    {
+        "merged": "com.jeffern.movie.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.jeffern.movie.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-mergeDebugResources-41:/layout/dialog_website_config.xml",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/layout/dialog_website_config.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-mergeDebugResources-41:/layout/activity_webview.xml",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/layout/activity_webview.xml"
+    },
+    {
+        "merged": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-mergeDebugResources-41:/layout/dialog_emby_config.xml",
+        "source": "/Users/jeffern/.gradle/daemon/8.6/com.jeffern.movie.app-main-44:/layout/dialog_emby_config.xml"
+    }
+]

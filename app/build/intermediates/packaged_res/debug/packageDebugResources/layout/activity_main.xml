@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tv_background"
+    android:padding="40dp">
+
+    <!-- 背景装饰 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/tv_button_selector"
+        android:alpha="0.1" />
+
+    <!-- 主要内容容器 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="48dp">
+
+        <!-- 应用图标 -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/app_icon"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter" />
+
+        <!-- 应用标题 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_title"
+            android:textSize="32sp"
+            android:textColor="@color/tv_text_primary"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2" />
+
+        <!-- 欢迎信息 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_message"
+            android:textSize="18sp"
+            android:textColor="@color/tv_text_secondary"
+            android:layout_marginBottom="48dp"
+            android:gravity="center" />
+
+        <!-- 开始按钮 -->
+        <Button
+            android:id="@+id/btn_emby"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="@string/emby_option"
+            android:textSize="20sp"
+            android:textColor="@color/tv_text_primary"
+            android:textStyle="bold"
+            android:background="@drawable/tv_button_clean"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+    </LinearLayout>
+
+    <!-- 版本信息 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="专为Android TV优化"
+        android:textSize="14sp"
+        android:textColor="@color/tv_text_secondary"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.7" />
+
+</RelativeLayout>

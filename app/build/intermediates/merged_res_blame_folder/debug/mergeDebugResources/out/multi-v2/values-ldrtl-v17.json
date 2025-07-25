@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.jeffern.movie.app-mergeDebugResources-40:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/jeffern/.gradle/caches/transforms-4/7e70576b83a392963dc2df8d61cb4402/transformed/material-1.11.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "133,269",
+                        "endColumns": "135,140",
+                        "endOffsets": "264,405"
+                    }
+                },
+                {
+                    "source": "/Users/jeffern/.gradle/caches/transforms-4/d8d6331c0146512f98ef009d85f91c1c/transformed/leanback-1.0.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,133,178",
+                        "endColumns": "77,44,46",
+                        "endOffsets": "128,173,220"
+                    },
+                    "to": {
+                        "startLines": "2,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,410,455",
+                        "endColumns": "77,44,46",
+                        "endOffsets": "128,450,497"
+                    }
+                }
+            ]
+        }
+    ]
+}

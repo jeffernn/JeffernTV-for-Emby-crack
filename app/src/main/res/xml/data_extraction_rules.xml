@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- 排除敏感数据 -->
+        <exclude domain="sharedpref" path="JeffernMoviePrefs.xml"/>
+        <exclude domain="database" path="webview"/>
+        <exclude domain="file" path="app_webview"/>
+    </cloud-backup>
+    <device-transfer>
+        <!-- 排除敏感数据 -->
+        <exclude domain="sharedpref" path="JeffernMoviePrefs.xml"/>
+        <exclude domain="database" path="webview"/>
+        <exclude domain="file" path="app_webview"/>
+    </device-transfer>
+</data-extraction-rules>

@@ -1,0 +1,218 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jeffern.movie"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:7:5-76
+13-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+14-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission
+15-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:9:5-10:38
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:9:22-78
+17        android:maxSdkVersion="28" />
+17-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:10:9-35
+18
+19    <uses-feature
+19-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:12:5-14:35
+20        android:name="android.software.leanback"
+20-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:13:9-49
+21        android:required="true" />
+21-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:14:9-32
+22    <uses-feature
+22-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:15:5-17:36
+23        android:name="android.hardware.touchscreen"
+23-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:16:9-52
+24        android:required="false" />
+24-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:17:9-33
+25
+26    <permission
+26-->[androidx.core:core:1.9.0] /Users/jeffern/.gradle/caches/transforms-4/6d2d88b4f51e1d0e75289243d5f5c8e0/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+27        android:name="com.jeffern.movie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.9.0] /Users/jeffern/.gradle/caches/transforms-4/6d2d88b4f51e1d0e75289243d5f5c8e0/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.9.0] /Users/jeffern/.gradle/caches/transforms-4/6d2d88b4f51e1d0e75289243d5f5c8e0/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.jeffern.movie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.9.0] /Users/jeffern/.gradle/caches/transforms-4/6d2d88b4f51e1d0e75289243d5f5c8e0/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.9.0] /Users/jeffern/.gradle/caches/transforms-4/6d2d88b4f51e1d0e75289243d5f5c8e0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:19:5-58:19
+33        android:allowBackup="true"
+33-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:20:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] /Users/jeffern/.gradle/caches/transforms-4/6d2d88b4f51e1d0e75289243d5f5c8e0/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+35        android:banner="@drawable/app_banner"
+35-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:28:9-46
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:21:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="true"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:22:9-54
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:23:9-43
+41        android:label="@string/app_name"
+41-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:24:9-41
+42        android:networkSecurityConfig="@xml/network_security_config"
+42-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:29:9-69
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:25:9-54
+44        android:supportsRtl="true"
+44-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:26:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.JeffernTV"
+46-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:27:9-47
+47        android:usesCleartextTraffic="true" >
+47-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:30:9-44
+48        <activity
+48-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:33:9-42:20
+49            android:name="com.jeffern.movie.MainActivity"
+49-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:34:13-41
+50            android:exported="true"
+50-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:35:13-36
+51            android:theme="@style/Theme.JeffernTV.NoActionBar" >
+51-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:36:13-63
+52            <intent-filter>
+52-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:37:13-41:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:38:17-69
+53-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:38:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:39:17-77
+55-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:39:27-74
+56                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+56-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:40:17-86
+56-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:40:27-83
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:44:9-48:77
+60            android:name="com.jeffern.movie.WebViewActivity"
+60-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:45:13-44
+61            android:configChanges="orientation|screenSize|keyboardHidden"
+61-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:48:13-74
+62            android:exported="false"
+62-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:46:13-37
+63            android:theme="@style/Theme.JeffernTV.NoActionBar" />
+63-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:47:13-63
+64
+65        <receiver
+65-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:50:9-57:20
+66            android:name="com.jeffern.movie.UninstallReceiver"
+66-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:50:19-52
+67            android:exported="true" >
+67-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:51:13-36
+68            <intent-filter android:priority="1000" >
+68-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:52:13-56:29
+68-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:52:28-51
+69                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+69-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:53:17-80
+69-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:53:25-77
+70                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+70-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:54:17-86
+70-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:54:25-83
+71
+72                <data android:scheme="package" />
+72-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:55:17-50
+72-->/Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:55:23-47
+73            </intent-filter>
+74        </receiver>
+75
+76        <provider
+76-->[androidx.emoji2:emoji2:1.2.0] /Users/jeffern/.gradle/caches/transforms-4/aa6cb174a211ae4525e78c18039c4dc5/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.emoji2:emoji2:1.2.0] /Users/jeffern/.gradle/caches/transforms-4/aa6cb174a211ae4525e78c18039c4dc5/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+78            android:authorities="com.jeffern.movie.androidx-startup"
+78-->[androidx.emoji2:emoji2:1.2.0] /Users/jeffern/.gradle/caches/transforms-4/aa6cb174a211ae4525e78c18039c4dc5/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+79            android:exported="false" >
+79-->[androidx.emoji2:emoji2:1.2.0] /Users/jeffern/.gradle/caches/transforms-4/aa6cb174a211ae4525e78c18039c4dc5/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+80            <meta-data
+80-->[androidx.emoji2:emoji2:1.2.0] /Users/jeffern/.gradle/caches/transforms-4/aa6cb174a211ae4525e78c18039c4dc5/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+81-->[androidx.emoji2:emoji2:1.2.0] /Users/jeffern/.gradle/caches/transforms-4/aa6cb174a211ae4525e78c18039c4dc5/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+82                android:value="androidx.startup" />
+82-->[androidx.emoji2:emoji2:1.2.0] /Users/jeffern/.gradle/caches/transforms-4/aa6cb174a211ae4525e78c18039c4dc5/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jeffern/.gradle/caches/transforms-4/c979f72ed02f0ae8b64f13b9aee997c0/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jeffern/.gradle/caches/transforms-4/c979f72ed02f0ae8b64f13b9aee997c0/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+85                android:value="androidx.startup" />
+85-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jeffern/.gradle/caches/transforms-4/c979f72ed02f0ae8b64f13b9aee997c0/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+88                android:value="androidx.startup" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+89        </provider>
+90
+91        <uses-library
+91-->[androidx.window:window:1.0.0] /Users/jeffern/.gradle/caches/transforms-4/b8aec3ec9a26cafec1464784a35eb952/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+92            android:name="androidx.window.extensions"
+92-->[androidx.window:window:1.0.0] /Users/jeffern/.gradle/caches/transforms-4/b8aec3ec9a26cafec1464784a35eb952/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0] /Users/jeffern/.gradle/caches/transforms-4/b8aec3ec9a26cafec1464784a35eb952/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+94        <uses-library
+94-->[androidx.window:window:1.0.0] /Users/jeffern/.gradle/caches/transforms-4/b8aec3ec9a26cafec1464784a35eb952/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+95            android:name="androidx.window.sidecar"
+95-->[androidx.window:window:1.0.0] /Users/jeffern/.gradle/caches/transforms-4/b8aec3ec9a26cafec1464784a35eb952/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+96            android:required="false" />
+96-->[androidx.window:window:1.0.0] /Users/jeffern/.gradle/caches/transforms-4/b8aec3ec9a26cafec1464784a35eb952/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+97
+98        <receiver
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+99            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+100            android:directBootAware="false"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+101            android:enabled="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+102            android:exported="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+103            android:permission="android.permission.DUMP" >
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+105                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+108                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+111                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+114                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jeffern/.gradle/caches/transforms-4/800be43fba721c3299e3b2735914a968/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+115            </intent-filter>
+116        </receiver>
+117    </application>
+118
+119</manifest>
