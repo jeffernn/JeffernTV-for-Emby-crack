@@ -26,7 +26,7 @@
 <img width="662" height="395" alt="image" src="https://github.com/user-attachments/assets/bb7acf51-054f-4308-8d96-7087d947dd94" />
 </p>
 
-![201753454111_ pic](https://github.com/user-attachments/assets/00cf9721-6653-480a-92ea-df871c670dad)
+![201753454111_ pic tump](https://github.com/user-attachments/assets/00cf9721-6653-480a-92ea-df871c670dad)
 
 
 ![211753454112_ pic_thumb](https://github.com/user-attachments/assets/c0107179-c8de-4d76-bf3f-bb3fe2a85a0b)
