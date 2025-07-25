@@ -23,7 +23,7 @@
 <img width="677" height="411" alt="image" src="https://github.com/user-attachments/assets/0fbe8edf-d962-4d28-9b72-d81dfb090b15" />
 </p>
 <p align="center">
-<img width="665" height="399" alt="image" src="https://github.com/user-attachments/assets/237eb97f-2431-43b1-97f8-ad1a5c6c8786" />
+<img width="662" height="395" alt="image" src="https://github.com/user-attachments/assets/bb7acf51-054f-4308-8d96-7087d947dd94" />
 </p>
 
 - 如需macos端，请点击[LibreTV-MoonTV-Mac-Objective-C](https://github.com/jeffernn/LibreTV-MoonTV-Mac-Objective-C)
