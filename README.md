@@ -31,6 +31,7 @@
 - 🎯 **专为 Android TV 优化** - 完美适配电视遥控器操作
 - 🔗 **Emby 服务器支持** - 无缝连接 Emby 媒体服务器
 - 🚀 **自动登录功能** - 保存凭据，自动完成登录流程
+- 🚀 **自动操作TV不友好行为** - 将TV遥控器无法操作影响使用的组件进行JS注入重构
 - 💾 **智能缓存管理** - 优化加载速度，支持缓存清理
 - 🎮 **遥控器友好** - 完整的方向键和确认键支持,自动执行遥控器无法操作的模块，使用遥控器完美适配
 - 🔧 **灵活配置** - 支持自定义Emby服务器地址和登录信息
@@ -67,7 +68,7 @@
 - **重新加载页面** - 刷新当前页面
 - **返回主页** - 退出到配置界面
 
-#### 🔧 重新配置
+#### 🔧 重新封装Emby服务器
 
 如需更换服务器或重新设置：
 1. 配置完成后在设置中清除缓存或者重新安装应用
@@ -176,18 +177,6 @@ app/
 
 ---
 
-## 🤝 贡献指南
-
-欢迎提交 Issue 和 Pull Request！
-
-1. Fork 本项目
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开 Pull Request
-
----
-
 ## 📄 许可证
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
@@ -196,7 +185,7 @@ app/
 
 ## 🚀 相关项目
 
-- [macos版]([https://github.com/jeffernn/MoonTV](https://github.com/jeffernn/LibreTV-MoonTV-Mac-Objective-C)) - macos版的封装影视平台
+- [macos版]([https://github.com/jeffernn/MoonTV](https://github.com/jeffernn/LibreTV-MoonTV-Mac-Objective-C)) - macos版的封装影视平台（内置影视）
 - [LibreTV-Mac-Python]([https://github.com/jeffernn/LibreTV-Mac-Python](https://github.com/jeffernn/LibreTV-Mac-Python)) - 可以自行打包为windows版本
 
 
@@ -228,16 +217,10 @@ app/
 
 ## ⚠️ 免责声明
 
-JeffernMovie 仅作为视频搜索工具，不存储、上传或分发任何视频内容。所有视频均来自第三方影视站提供的搜索结果。如有侵权内容，请联系相应的内容提供方。
+JeffernMovie 仅作为封装Emby的工具，不存储、上传或分发任何视频内容。不破解任何第三方服务器。
 
 本项目开发者不对使用本项目产生的任何后果负责。使用本项目时，您必须遵守当地的法律法规。
 
-
-## 📞 联系方式
-
-如有问题或建议，欢迎通过以下方式联系：
-
-- 📧 提交 [Issue](https://github.com/jeffernn/JeffernTV/issues)
 
 ---
 
