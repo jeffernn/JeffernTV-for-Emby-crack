@@ -25,10 +25,9 @@
 - 🎯 **专为 Android TV 优化** - 完美适配电视遥控器操作
 - 🔗 **Emby 服务器支持** - 无缝连接 Emby 媒体服务器
 - 🚀 **自动登录功能** - 保存凭据，自动完成登录流程
-- 📱 **多种 User-Agent** - 支持切换不同设备标识
 - 💾 **智能缓存管理** - 优化加载速度，支持缓存清理
-- 🎮 **遥控器友好** - 完整的方向键和确认键支持
-- 🔧 **灵活配置** - 支持自定义服务器地址和登录信息
+- 🎮 **遥控器友好** - 完整的方向键和确认键支持,自动执行遥控器无法操作的模块，使用遥控器完美适配
+- 🔧 **灵活配置** - 支持自定义Emby服务器地址和登录信息
 
 ---
 
@@ -42,6 +41,7 @@
    - 填写用户名和密码
    - 点击"确认"保存配置
 3. **开始观影** - 配置完成后自动跳转到 Emby 界面
+4. **重置影视** - 配置完成后在设置中清除缓存或者重新安装应用
 
 ### 功能操作
 
@@ -62,10 +62,9 @@
 - **返回主页** - 退出到配置界面
 
 #### 🔧 重新配置
+
 如需更换服务器或重新设置：
-1. 在设置中选择"返回主页"
-2. 应用将返回配置界面
-3. 重新输入新的服务器信息
+1. 配置完成后在设置中清除缓存或者重新安装应用
 
 ---
 
@@ -194,14 +193,53 @@ app/
 - [macos版]([https://github.com/jeffernn/MoonTV](https://github.com/jeffernn/LibreTV-MoonTV-Mac-Objective-C)) - macos版的封装影视平台
 - [LibreTV-Mac-Python]([https://github.com/jeffernn/LibreTV-Mac-Python](https://github.com/jeffernn/LibreTV-Mac-Python)) - 可以自行打包为windows版本
 
+
 ---
+
+### ✨✨✨福利
+
+- 啦啦～
+- 看到这里啦！说明你认真熟读了README，我必须送你一些专属福利～
+- ⬇️⬇️Emby客户端（macos/ipados/ios）高级订阅会员破解脚本⬇️⬇️
+- https://github.com/jeffernn/jeffern-qx/blob/main/%E9%87%8D%E5%86%99/Embypremiere/Embypremiere.conf
+- 配合Quantumult x使用，懂得都懂！切勿外传哦～
+
+---
+
+### 🚨 重要声明
+
+- 本项目仅供学习和个人使用
+- 请勿用于商业用途或公开服务（**禁止用于任何商业用途**）
+- 如因公开分享导致的任何法律问题，用户需自行承担责任
+- 项目开发者不对用户的使用行为承担任何法律责任
+- 如有问题或建议，欢迎提交 Issue
+- 如需分支项目请引用本项目地址
+- 其他端（windows）的部署可参考[LibreTV-Mac-Python](https://github.com/jeffernn/LibreTV-Mac-Python)版本进行修改后自行打包
+- 喜欢的话欢迎 Star🌟🌟🌟～
+
+
+---
+
+## ⚠️ 免责声明
+
+JeffernMovie 仅作为视频搜索工具，不存储、上传或分发任何视频内容。所有视频均来自第三方影视站提供的搜索结果。如有侵权内容，请联系相应的内容提供方。
+
+本项目开发者不对使用本项目产生的任何后果负责。使用本项目时，您必须遵守当地的法律法规。
+
 
 ## 📞 联系方式
 
 如有问题或建议，欢迎通过以下方式联系：
 
 - 📧 提交 [Issue](https://github.com/jeffernn/JeffernTV/issues)
-- 💬 [Telegram 群组](https://t.me/+vIMxDGDIWiczMTE1)
+
+---
+
+## 🚀 欢迎加入我们的 Telegram 社区！
+
+[![加入 Telegram](https://img.shields.io/badge/Telegram-加入我们的社区-blue?logo=telegram&style=for-the-badge)](https://t.me/+vIMxDGDIWiczMTE1)
+
+欢迎加入我们的 Telegram 群，获取最新动态、分享创意、与志同道合的朋友交流！🌟
 
 ---
 
