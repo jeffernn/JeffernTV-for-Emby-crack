@@ -129,9 +129,9 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jeffern/.gradle/cach
 	android:extractNativeLibs
 		INJECTED from /Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml
 	android:roundIcon
-		ADDED from /Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:25:9-54
+		ADDED from /Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:25:9-47
 	android:icon
-		ADDED from /Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:23:9-43
+		ADDED from /Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:23:9-42
 	android:banner
 		ADDED from /Users/jeffern/Desktop/JeffernTV/app/src/main/AndroidManifest.xml:28:9-46
 	android:networkSecurityConfig

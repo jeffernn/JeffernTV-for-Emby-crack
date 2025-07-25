@@ -1,0 +1,6 @@
+com.jeffern.movie.test.app-annotation-experimental-1.3.0-0 /Users/jeffern/.gradle/caches/transforms-4/75186b0650efca2e3992de71059f0cd6/transformed/annotation-experimental-1.3.0/res
+com.jeffern.movie.test.app-core-1.5.0-1 /Users/jeffern/.gradle/caches/transforms-4/b20e3974ffac9c01b3b11a64b75831e7/transformed/core-1.5.0/res
+com.jeffern.movie.test.app-androidTest-2 /Users/jeffern/Desktop/JeffernTV/app/build/generated/res/resValues/androidTest/debug
+com.jeffern.movie.test.app-mergeDebugAndroidTestResources-3 /Users/jeffern/Desktop/JeffernTV/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.jeffern.movie.test.app-mergeDebugAndroidTestResources-4 /Users/jeffern/Desktop/JeffernTV/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.jeffern.movie.test.app-debugAndroidTest-5 /Users/jeffern/Desktop/JeffernTV/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
