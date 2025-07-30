@@ -246,6 +246,12 @@ JeffernMovie 仅作为封装Emby的工具，不存储、上传或分发任何视
 
 ---
 
+##🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jeffernn/JeffernTV-for-Emby-crack&type=Date)](https://www.star-history.com/#jeffernn/JeffernTV-for-Emby-crack&Date)
+
+---
+
 <p align="center">
   <b>⭐ 如果这个项目对你有帮助，请给个 Star 支持一下！</b>
 </p>
