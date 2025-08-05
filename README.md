@@ -248,7 +248,7 @@ JeffernMovie 仅作为封装Emby的工具，不存储、上传或分发任何视
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jeffernn/JeffernTV-for-Emby-crack&type=Date)](https://www.star-history.com/#jeffernn/JeffernTV-for-Emby-crack&Date)
+[![Stargazers over time](https://starchart.cc/jeffernn/JeffernTV-for-Emby-crack.svg?variant=adaptive)](https://starchart.cc/jeffernn/JeffernTV-for-Emby-crack)
 
 ---
 
